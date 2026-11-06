@@ -6,7 +6,7 @@
 
 A multi-hop RAG system built as an evaluation study on HotpotQA. Instead of treating RAG as a black box, it measures each stage separately: dense retrieval, BM25, hybrid fusion (RRF), cross-encoder reranking, multi-hop query expansion, baseline protection and answer generation. Retrieval errors and generation errors are analysed separately.
 
-**[Live demo](https://multihop-rag-evaluation.streamlit.app/)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
+
 
 ## Key results
 
@@ -180,4 +180,3 @@ experiments/                                          stored result JSON and plo
 tests/                                                unit tests (pytest)
 ```
 
-Author: [Kamalesh Pantra](https://github.com/kamaleshpantra). No license has been added.
