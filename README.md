@@ -124,7 +124,7 @@ Exact match changed on 5 of 50 questions: 3 improved, 2 regressed (net +1).
 ## Setup (Windows PowerShell)
 
 ```powershell
-git clone https://github.com/kamaleshpantra/Multihop-RAG-Evaluation.git
+
 cd Multihop-RAG-Evaluation
 git lfs pull                      # dataset, chunks and FAISS index are stored in Git LFS
 python -m venv .venv
